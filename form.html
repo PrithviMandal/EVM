@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            width: 50%;
+        }
+        th {
+            background-color: rgb(123, 123, 182);
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <form>
+            <tr>
+                <th colspan="2">
+                    <h2>ELECTORATE</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>Registration no:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>SIC:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Year:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button type="button">Reset All</button>
+                    <button type="button">Submit Above Details</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
